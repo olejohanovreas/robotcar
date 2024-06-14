@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="roslib.min.js"></script>
+  </head>
+  <body>
+    <h1> Hello from ROS</h1>
+
+    <p>Com tutorial</p>
+
+    <script type="text/javascript">
+        var ros = new ROSLIB.Ros({
+            url : 'ws://192.168.1.20:9090'
+        });
+
+        ros.on('connection', function() {
+            console.log('Connected!');
+        });
+
+        ros.on('error', function(error) {
+            console.log('Error!');
+        });
+
+        ros.on('closed', function() {
+            console.log('Closed!');
+        });
+
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,360 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-hero {
+  width: 100%;
+  height: 857px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.home-container1 {
+  top: 139px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text {
+  font-size: 4rem;
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  font-style: normal;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.home-text1 {
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.home-buttons {
+  width: 1096px;
+  height: 364px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("./map-1100w.jpg");
+  background-position: center;
+}
+.home-button {
+  top: 54px;
+  left: 145px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button01 {
+  top: 54px;
+  left: 261px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button01:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button01:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button02 {
+  top: 55px;
+  left: 407px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button02:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button02:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button03 {
+  top: 163px;
+  left: 63px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button03:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button03:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button04 {
+  top: 57px;
+  left: 521px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button04:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button04:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button05 {
+  top: 56px;
+  left: 650px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button05:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button05:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button06 {
+  top: 58px;
+  left: 831px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button06:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button06:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button07 {
+  top: 57px;
+  right: 115px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button07:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button07:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button08 {
+  top: 271px;
+  left: 49px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button08:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button08:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button09 {
+  left: 245px;
+  width: 39px;
+  bottom: 51px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button09:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button09:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button10 {
+  left: 148px;
+  width: 39px;
+  bottom: 51px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button10:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button10:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button11 {
+  left: 335px;
+  width: 39px;
+  bottom: 52px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button11:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button11:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button12 {
+  top: 271px;
+  left: 439px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button12:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button12:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button13 {
+  top: 272px;
+  left: 538px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button13:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button13:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button14 {
+  top: 271px;
+  left: 639px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button14:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button14:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button15 {
+  left: 737px;
+  width: 39px;
+  bottom: 54px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button15:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button15:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button16 {
+  right: 165px;
+  width: 39px;
+  bottom: 51px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button16:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button16:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button17 {
+  right: 44px;
+  width: 39px;
+  bottom: 50px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button17:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button17:active {
+  background-color: var(--dl-color-success-700);
+}
+.home-button18 {
+  top: 164px;
+  left: 214px;
+  width: 39px;
+  height: 40px;
+  position: absolute;
+  transition: 0.3s;
+}
+.home-button18:hover {
+  background-color: rgba(66, 236, 227, 0.12);
+}
+.home-button18:active {
+  background-color: var(--dl-color-success-700);
+}
+@media(max-width: 991px) {
+  .home-hero {
+    flex-direction: column;
+  }
+  .home-container1 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-text {
+    text-align: center;
+  }
+  .home-text1 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .home-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-text1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .home-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-container1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
